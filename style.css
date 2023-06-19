@@ -8,17 +8,12 @@
 .color{
     display: flex;
     justify-content: center;
-    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    height: 500vh;
 }
 
-h1{
-    position: fixed;
-    left: 47%;
-    color: rebeccapurple;
-    font-weight: bold;
-}
-
-.container{
+.color .container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     height: 500vh;
@@ -27,7 +22,14 @@ h1{
     margin-top: 3rem;
 }
 
-h3{
+.color h1{
+    color: rebeccapurple;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+.color h3{
     border: 1px solid white;
 }
 
@@ -488,4 +490,37 @@ span{
     scale:1.1;
     transition: all 0.5s linear;
     border-radius: 10px;
+}
+
+
+/* PARTIE FONT  */
+
+
+.font{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+
+.font .container{
+    height: 100vh;
+    width: 80%;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.poppins{
+    background-color: blue;
+    margin: 2px;
+}
+
+.font h1{
+    color: rebeccapurple;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 2rem;
 }
