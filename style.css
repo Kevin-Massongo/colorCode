@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.color{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 150vh;
+    width: 80%;
+    border: 1px solid black;
+}
+
+.red{
+    background-color: red;
+    margin: 2px;
+}
+
+.green{
+    background-color: green;
+    margin: 2px;
+}
+
+.yellow{
+    background-color: yellow;
+    margin: 2px;
+}
+
+.blue{
+    background-color: blue;
+    margin: 2px;
+}
+
+.gray{
+    background-color: gray;
+    margin: 2px;
+}
+
+.purple{
+    background-color: purple;
+    margin: 2px;
+}
+
+.cyan{
+    background-color: cyan;
+    margin: 2px;
+}
+
+.brown{
+    background-color: brown;
+    margin: 2px;
+}
+
+.orange{
+    background-color: orange;
+    margin: 2px;
+}
+
+.aqua{
+    background-color: aqua;
+    margin: 2px;
+}
+
+.bisque{
+    background-color: bisque;
+    margin: 2px;
+}
+
+.chocolate{
+    background-color: chocolate;
+    margin: 2px;
+}
+
+.sienna{
+    background-color: sienna;
+    margin: 2px;
+}
+
+.antiquewhite{
+    background-color: antiquewhite;
+    margin: 2px;
+}
+
+.teal{
+    background-color: teal;
+    margin: 2px;
+}
+
+.black{
+    background-color: black;
+    margin: 2px;
+}
