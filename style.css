@@ -21,7 +21,7 @@ h1{
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    height: 250vh;
+    height: 350vh;
     width: 80%;
     border: 1px solid black;
     margin-top: 3rem;
@@ -118,11 +118,23 @@ h1{
 .orange{
     background-color: orange;
     margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 99%;
+    flex-direction: column;
+    color: white;
 }
 
 .aqua{
     background-color: aqua;
     margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 99%;
+    flex-direction: column;
+    color: color;
 }
 
 .bisque{
