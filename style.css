@@ -510,17 +510,58 @@ span{
     width: 80%;
     border: 1px solid black;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 0.5fr ;
+    grid-template-rows: repeat(5, 1fr);
 }
 
 .poppins{
     background-color: blue;
     margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    color: white;
 }
-
+.font h3{
+    margin-bottom: 1rem;
+    border: 1px solid white;
+}
 .font h1{
     color: rebeccapurple;
     font-size: 2rem;
     font-weight: bold;
     margin-top: 2rem;
+}
+
+.medium{
+    background-color: skyblue;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+}
+
+
+.open_sans{
+    background-color: red;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    color: white;
+}
+.open{
+    background-color: orangered;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
 }
