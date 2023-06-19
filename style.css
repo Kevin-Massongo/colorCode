@@ -38,6 +38,11 @@ h1{
     color: white;
 }
 
+.red:hover, .green:hover, .yellow:hover, .blue:hover, .gray:hover, .purple:hover, .cyan:hover{
+    scale:1.1;
+    transition: all 0.5s linear;
+    border-radius: 10px;
+}
 .green{
     background-color: green;
     margin: 2px;
@@ -314,71 +319,155 @@ h1{
 }
 
 .royalblue{
-    background-color:royalblue;
+    background-color: royalblue;
     margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 99%;
+    flex-direction: column;
+    color: white;
 }
 
 .lavender{
     background-color: lavender;
     margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 99%;
+    flex-direction: column;
+    color: black;
 }
 
 .rebeccapurple{
     background-color: rebeccapurple;
     margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 99%;
+    flex-direction: column;
+    color: white;
 }
 
 .hotpink{
     background-color: hotpink;
     margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 99%;
+    flex-direction: column;
+    color: white;
 }
 
 .dimgrey{
     background-color: dimgrey;
     margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 99%;
+    flex-direction: column;
+    color: white;
 }
 
 .navy{
     background-color: navy;
     margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 99%;
+    flex-direction: column;
+    color: white;
 }
 
 .darkred{
     background-color: darkred;
     margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 99%;
+    flex-direction: column;
+    color: white;
 }
 
 .darkturquoise{
     background-color: darkturquoise;
     margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 99%;
+    flex-direction: column;
+    color: white;
 }
 
 .darkgreen{
     background-color: darkgreen;
     margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 99%;
+    flex-direction: column;
+    color: white;
 }
 
 .moccasin{
     background-color: moccasin;
     margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 99%;
+    flex-direction: column;
+    color: black;
 }
 
 .maroon{
     background-color: maroon;
     margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 99%;
+    flex-direction: column;
+    color: white;
 }
 
 .darksalmon{
     background-color: darksalmon;
     margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 99%;
+    flex-direction: column;
+    color: white;
 }
 
 .darkolivegreen{
     background-color: darkolivegreen;
     margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 99%;
+    flex-direction: column;
+    color: white;
 }
 
 .darkviolet{
     background-color: darkviolet;
     margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 99%;
+    flex-direction: column;
+    color: white;
 }
