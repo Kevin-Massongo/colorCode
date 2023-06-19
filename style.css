@@ -134,87 +134,183 @@ h1{
     align-items: center;
     height: 99%;
     flex-direction: column;
-    color: color;
+    color: black;
 }
 
 .bisque{
     background-color: bisque;
     margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 99%;
+    flex-direction: column;
+    color: black;
 }
 
 .chocolate{
     background-color: chocolate;
     margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 99%;
+    flex-direction: column;
+    color: white;
 }
 
 .sienna{
     background-color: sienna;
     margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 99%;
+    flex-direction: column;
+    color: white;
 }
 
 .antiquewhite{
     background-color: antiquewhite;
     margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 99%;
+    flex-direction: column;
+    color: black;
 }
 
 .teal{
     background-color: teal;
     margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 99%;
+    flex-direction: column;
+    color: white;
 }
 
 .black{
     background-color: black;
     margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 99%;
+    flex-direction: column;
+    color: white;
 }
 
 .darkgray{
     background-color: darkgray;
     margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 99%;
+    flex-direction: column;
+    color: white;
 }
 
 .orangered{
     background-color: orangered;
     margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 99%;
+    flex-direction: column;
+    color: white;
 }
 
 .darkslategray{
     background-color: darkslategray;
     margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 99%;
+    flex-direction: column;
+    color: white;
 }
 
 .darkgoldenrod{
     background-color: darkgoldenrod;
     margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 99%;
+    flex-direction: column;
+    color: white;
 }
 
 .tan{
     background-color: tan;
     margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 99%;
+    flex-direction: column;
+    color: white;
 }
 
 .lime{
     background-color: lime;
     margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 99%;
+    flex-direction: column;
+    color: white;
 }
 
 .mediumblue{
     background-color: mediumblue;
     margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 99%;
+    flex-direction: column;
+    color: white;
 }
 
 .mediumSpringGreen{
-    background-color: mediumSpringGreen;
+    background-color: mediumspringgreen;
     margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 99%;
+    flex-direction: column;
+    color: black;
 }
 
 .olive{
     background-color: olive;
     margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 99%;
+    flex-direction: column;
+    color: white;
 }
 
 .lightblue{
     background-color: lightblue;
     margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 99%;
+    flex-direction: column;
+    color: white;
 }
 
 .royalblue{
