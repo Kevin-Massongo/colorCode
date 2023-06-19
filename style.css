@@ -41,7 +41,8 @@ h1{
 .red:hover, .green:hover, .yellow:hover, .blue:hover, .gray:hover, .purple:hover, .cyan:hover, .brown:hover,
 .orange:hover, .aqua:hover, .bisque:hover, .chocolate:hover, .sienna:hover, .antiquewhite:hover, .teal:hover, 
 .black:hover, .darkgray:hover, .orangered:hover, .darkslategray:hover, .darkgoldenrod:hover, .tan:hover, 
-.lime:hover, .mediumblue:hover, .mediumSpringGreen:hover, .olive:hover, .lightblue:hover, .royalblue:hover{
+.lime:hover, .mediumblue:hover, .mediumSpringGreen:hover, .olive:hover, .lightblue:hover, .royalblue:hover,
+.lavender:hover{
     scale:1.1;
     transition: all 0.5s linear;
     border-radius: 10px;
