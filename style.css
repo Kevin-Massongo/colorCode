@@ -98,3 +98,33 @@
     background-color: black;
     margin: 2px;
 }
+
+.darkgray{
+    background-color: darkgray;
+    margin: 2px;
+}
+
+.orangered{
+    background-color: orangered;
+    margin: 2px;
+}
+
+.darkslategray{
+    background-color: darkslategray;
+    margin: 2px;
+}
+
+.darkgoldenrod{
+    background-color: darkgoldenrod;
+    margin: 2px;
+}
+
+.tan{
+    background-color: tan;
+    margin: 2px;
+}
+
+.lime{
+    background-color: lime;
+    margin: 2px;
+}
