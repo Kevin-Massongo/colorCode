@@ -636,3 +636,158 @@ ul li{
     text-align: center;
     padding: 1rem;
 }
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 768px) {
+    .color .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        max-width: 700px;
+        width: 100%;
+        border: 1px solid black;
+    }
+    .darkolivegreen{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    /* color */
+
+    .color .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 410px;
+        width: 100%;
+        border: 1px solid black;
+    }
+    .darkolivegreen{
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .color h1{
+        color: rebeccapurple;
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-top: 2rem;
+        text-align: center;
+    }
+    
+    .color h3{
+        border: 1px solid white;
+    }
+    
+    span{
+        font-size: 0.8rem;
+        font-weight: 500;
+        padding: 10px;
+        text-align: center;
+    }
+
+    /* Font */
+
+    .font .container{
+        width: 100%;
+        max-width: 410px;
+        min-height: 50vh;
+        border: 1px solid black;
+        display: grid;
+        grid-template-columns: 1fr 0.5fr ;
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .font h3{
+        font-size: 0.8rem;
+    }
+    .font h1{
+        font-size: 1.5rem;
+    }
+
+    /* Text */
+
+    .text h1{
+        font-size: 1.5rem;
+    }
+
+    .text .container h1{
+        font-size: 1.3rem;
+    }
+
+    .text .container h2{
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    /* color */
+
+    .color .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 370px;
+        width: 100%;
+        border: 1px solid black;
+    }
+    .darkolivegreen{
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .color h1{
+        color: rebeccapurple;
+        font-size: 1.1rem;
+        font-weight: bold;
+        margin-top: 1rem;
+        text-align: center;
+    }
+    
+    .color h3{
+        border: 1px solid white;
+    }
+    
+    span{
+        font-size: 0.6rem;
+        font-weight: 500;
+        padding: 5px;
+        text-align: center;
+    }
+
+    /* Font */
+
+    .font .container{
+        width: 100%;
+        max-width: 370px;
+        min-height: 50vh;
+        border: 1px solid black;
+        display: grid;
+        grid-template-columns: 1fr 0.5fr ;
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .font h3{
+        font-size: 0.8rem;
+    }
+    .font h1{
+        font-size: 1.1rem;
+    }
+
+    /* Text */
+
+    .text h1{
+        font-size: 1.1rem;
+    }
+
+    .text .container h1{
+        font-size: 1.1rem;
+    }
+
+    .text .container h2{
+        font-size: 1rem;
+    }
+}
