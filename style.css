@@ -599,14 +599,13 @@ span{
 /* TEXT-STYLE */
 
 
-/* .text{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    flex-direction: column;
-    margin-top: 5rem;
-} */
+.text h1{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: rebeccapurple;
+}
 
 .text .container{
     width: 100%;
@@ -615,10 +614,25 @@ span{
 }
 
 ul{
-    padding: 0 0 0 3rem;
+    padding:1rem;
+    list-style: none;
 }
 
 ul li{
-    padding: 0.5rem;
+    padding: 1rem;
 }
 
+.text .container h1{
+    text-align: center;
+    padding: 1rem;
+}
+
+.text .container h2{
+    text-align: center;
+    padding: 1rem;
+}
+
+.text .container p{
+    text-align: center;
+    padding: 1rem;
+}
